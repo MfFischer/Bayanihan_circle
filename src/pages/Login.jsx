@@ -30,7 +30,7 @@ export default function Login() {
   return (
     <div className="min-h-screen flex">
       {/* Left Side - Marketing/Landing */}
-      <div className="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-primary-600 via-primary-700 to-cooperative-600 p-12 flex-col justify-between relative overflow-hidden">
+      <div className="hidden lg:flex lg:w-2/3 bg-gradient-to-br from-primary-600 via-primary-700 to-cooperative-600 p-12 flex-col justify-between relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 left-0 w-96 h-96 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
@@ -40,16 +40,12 @@ export default function Login() {
         {/* Content */}
         <div className="relative z-10">
           {/* Logo */}
-          <div className="flex items-center space-x-3 mb-12">
+          <div className="flex items-center justify-center mb-12">
             <img
-              src="/images/Bayanihankoop logo.png"
-              alt="Bayanihan Koop Logo"
-              className="h-16 w-16 object-contain bg-white rounded-xl p-2"
+              src="/images/logo.png"
+              alt="Bayanihan Koop"
+              className="h-32 w-auto object-contain"
             />
-            <div>
-              <h1 className="text-2xl font-bold text-white">Bayanihan Circle</h1>
-              <p className="text-primary-100 text-sm">Cooperative Savings & Loans</p>
-            </div>
           </div>
 
           {/* Main Headline */}
@@ -124,17 +120,15 @@ export default function Login() {
       </div>
 
       {/* Right Side - Login Form */}
-      <div className="w-full lg:w-1/2 flex items-center justify-center p-8 bg-gray-50">
+      <div className="w-full lg:w-1/3 flex items-center justify-center p-8 bg-gray-50">
         <div className="max-w-md w-full">
           {/* Mobile Logo */}
           <div className="lg:hidden text-center mb-8">
             <img
-              src="/images/Bayanihankoop logo.png"
-              alt="Bayanihan Koop Logo"
-              className="h-16 w-16 object-contain mx-auto mb-4"
+              src="/images/logo.png"
+              alt="Bayanihan Koop"
+              className="h-24 w-auto object-contain mx-auto mb-4"
             />
-            <h1 className="text-2xl font-bold text-gray-900">Bayanihan Circle</h1>
-            <p className="text-gray-600 text-sm">Cooperative Savings & Loans</p>
           </div>
 
           {/* Login Header */}
