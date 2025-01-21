@@ -41,11 +41,13 @@ export default function Login() {
         <div className="relative z-10">
           {/* Logo */}
           <div className="flex items-center justify-center mb-12">
-            <img
-              src="/images/logo.png"
-              alt="Bayanihan Koop"
-              className="h-32 w-auto object-contain"
-            />
+            <div className="bg-white rounded-3xl p-8 shadow-2xl">
+              <img
+                src="/images/Bayanihankoop logo.png"
+                alt="Bayanihan Koop"
+                className="h-32 w-auto object-contain"
+              />
+            </div>
           </div>
 
           {/* Main Headline */}
@@ -124,11 +126,13 @@ export default function Login() {
         <div className="max-w-md w-full">
           {/* Mobile Logo */}
           <div className="lg:hidden text-center mb-8">
-            <img
-              src="/images/logo.png"
-              alt="Bayanihan Koop"
-              className="h-24 w-auto object-contain mx-auto mb-4"
-            />
+            <div className="inline-block bg-white rounded-2xl p-4 shadow-lg">
+              <img
+                src="/images/Bayanihankoop logo.png"
+                alt="Bayanihan Koop"
+                className="h-20 w-auto object-contain"
+              />
+            </div>
           </div>
 
           {/* Login Header */}
